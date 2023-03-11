@@ -1,0 +1,14 @@
+<template>
+    <form>
+        <label for="name">Name *:</label>
+        <input type="text" name="name" required>
+        <label for="email">Email *:</label>
+        <input type="email" name="email">
+        <label for="phone">Phone: </label>
+        <input type="number" name="phone">
+        <label for="message">Message *:</label>
+        <textarea name="message" cols="30" rows="10"></textarea>
+        <input type="submit" value="Submit">
+    </form>
+</template>
+
