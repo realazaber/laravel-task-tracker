@@ -7,7 +7,8 @@ module.exports = {
         {
           "pri": "#0070FF",
           "sec": "#FFE135",
-          "thir": "#E60026"
+          "thir": "#E60026",
+          "accent": "#565454"
         }
     },
   },
