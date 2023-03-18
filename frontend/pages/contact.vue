@@ -1,13 +1,10 @@
 <template>
-    <form>
-        <label for="name">Name *:</label>
-        <input type="text" name="name" required>
-        <label for="email">Email *:</label>
-        <input type="email" name="email">
-        <label for="phone">Phone: </label>
-        <input type="number" name="phone">
-        <label for="message">Message *:</label>
-        <textarea name="message" cols="30" rows="10"></textarea>
+    <form class="flex flex-col">
+        <h2 class="pb-5 text-xl text-center">Contact us</h2>
+        <input placeholder="Name *" type="text" name="name" required>
+        <input placeholder="Email *" type="email" name="email" required>
+        <input placeholder="Phone" type="number" name="phone">
+        <textarea placeholder="Message *" name="message" cols="30" rows="5" required></textarea>
         <input type="submit" value="Submit">
     </form>
 </template>
