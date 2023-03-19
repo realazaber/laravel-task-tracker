@@ -3,7 +3,10 @@
             <p class="w-2/3">
                 {{ paragraphText }}
             </p>
-            <img :src="imageUrl" :alt="altText" class="w-1/3 h-96 rounded-md">
+            <div class="w-1/3">
+                <img :src="imageUrl" :alt="altText" class="h-96 rounded-xl object-top">
+            </div>
+            
         </div>
 </template>
 
