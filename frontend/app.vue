@@ -34,6 +34,10 @@
           @apply object-contain;
         }
 
+        .btn {
+          @apply rounded-md hover:rounded-lg;
+        }
+
         form {
           @apply border rounded-md p-5 shadow-md flex flex-col;
 
