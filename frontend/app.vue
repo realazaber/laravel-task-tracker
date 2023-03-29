@@ -15,8 +15,9 @@
     * {
       
       
+              
       body {
-        @apply text-accent scroll-smooth overflow-auto;
+        @apply text-accent scroll-smooth overflow-auto scrollbar-thin scrollbar-thumb-pri scrollbar-track-gray-400;
 
         nav {
           @apply duration-300;
@@ -53,6 +54,7 @@
           }
         }
       }
+      }
     }
-  }
+  
 </style>
