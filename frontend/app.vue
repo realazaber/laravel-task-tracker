@@ -1,6 +1,6 @@
 <template>
   <UniversalNav/>
-    <main class="w-5/6 min-h-[60vh] mx-auto flex flex-col justify-center items-center">
+    <main class="phone:w-5/6 w-[90%] mt-24 min-h-[60vh] mx-auto flex flex-col justify-center items-center">
       <NuxtPage />
     </main>
   <UniversalFooter/>
@@ -36,11 +36,11 @@
         }
 
         .btn {
-          @apply rounded-md hover:rounded-lg;
+          @apply rounded-md hover:rounded-lg w-1/2 phone:w-auto text-sm phone:text-base;
         }
 
         form {
-          @apply border rounded-md p-5 shadow-md flex flex-col;
+          @apply border rounded-md p-5 shadow-md flex flex-col w-[90%] phone:w-80;
 
           label {
             @apply text-base;
