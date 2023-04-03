@@ -1,7 +1,7 @@
 <template>
-    <nav class="p-5 h-24 flex justify-between items-center">
+    <nav class="p-5 h-24 flex justify-between items-center fixed top-0 left-0 right-0 bg-white">
         <UniversalLogo :width="24" :height="12" />
-        <div class="flex flex-row gap-8 items-center">
+        <div class="hidden phone:flex flex-row gap-8 items-center">
             <nuxt-link class="hover:text-gray-900" to="/about">About</nuxt-link>
             <nuxt-link class="hover:text-gray-900" to="/pricing">Pricing</nuxt-link>
             <nuxt-link class="hover:text-gray-900" to="/contact">Contact Us</nuxt-link>
